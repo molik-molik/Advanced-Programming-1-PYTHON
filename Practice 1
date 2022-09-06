@@ -1,0 +1,7 @@
+print("Hello, user!")
+a = input("What is your last name, first name? ")
+b = input("How old are you? ")
+c = input("Where do you live? ")
+print("Your last name, your name: ", a)
+print("Your age: ", b)
+print("The place where you live: ", c)
