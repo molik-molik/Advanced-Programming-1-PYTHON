@@ -27,5 +27,3 @@ z = math.pow(a, d)
 print('math.pow(',a,', ',d,') = ', z)
 z = math.sqrt(a)
 print('math.sqrt(',a,') = ',z)
-
-
