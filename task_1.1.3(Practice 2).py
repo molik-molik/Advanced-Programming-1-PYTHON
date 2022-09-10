@@ -68,6 +68,3 @@ y12 = 1
 z12 = 3
 answ12 = abs(math.log10(x12**3)/math.log10(math.e)) + math.exp(2*x12)/(x12+3.4) - 1 / math.tan(3/x12*y12*z12)**3
 print('4)', answ12)
-
-x9 = 4
-answer9 = e
