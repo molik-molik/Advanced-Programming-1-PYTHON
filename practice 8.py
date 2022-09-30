@@ -320,6 +320,28 @@ for i in range(len(arr)):
 for r in result:
    print(r)
 
+#Task_13
+def min_row(matrix) :
+    result = 0
+    row = len(matrix)
+    col = len(matrix[0])
+    i = 0
+    while (i < row) :
+        result = matrix[i][0]
+        j = 1
+        while (j < col) :
+            if (result > matrix[i][j]) :
+                result = matrix[i][j]
+            j += 1
+        print("  " + str(result))
+        i += 1
+arr = [[1, -1, 2, 3], 
+          [4, 8, 1, 4], 
+          [3, 4, 2, 0], 
+          [2, 5, 3, 3], 
+          [6, 3, 5, 7]]
+min_row(arr)
+
 #Task_15
 print("\nTask 15.1")
 def ifif(arr):
