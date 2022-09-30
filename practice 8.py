@@ -306,6 +306,19 @@ print("\nTask 7.1")
 
 print("\nTask 7.2")
 
+#Task_8
+print("\nTask 8.2")
+arr = [[44,56],
+    [7 ,81],
+    [17 ,77]]
+
+result = [[0,0,0],
+         [0,0,0]]
+for i in range(len(arr)):
+   for j in range(len(arr[0])):
+       result[j][i] = arr[i][j]
+for r in result:
+   print(r)
 
 #Task_15
 print("\nTask 15.1")
