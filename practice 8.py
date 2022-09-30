@@ -320,6 +320,25 @@ for i in range(len(arr)):
 for r in result:
    print(r)
 
+#Task_11
+def matr(arr):
+    summ = 0
+    minn = 9999
+    for i in range(len(arr)):
+        for j in range(len(arr)):
+            if arr[i][j] < minn:
+                minn = arr[i][j]
+                while (i < j):
+                    summ+=arr[i][j]
+    print(summ)
+arr = [[ -5, 2, 7, 4, 10 ],
+        [ 5, 15, 7, 8, 6 ],
+        [ 16, 2, 11, 3, 4 ],
+        [ 8, 99, 70, 10, 8 ],
+        [ 7, 66, 7, 1, 17 ]]
+print("Original: ", arr)
+matr(arr)
+
 #Task_13
 print("\nTask 13.1")
 def min_row(matrix) :
