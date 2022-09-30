@@ -321,6 +321,7 @@ for r in result:
    print(r)
 
 #Task_13
+print("\nTask 13.1")
 def min_row(matrix) :
     result = 0
     row = len(matrix)
@@ -341,6 +342,26 @@ arr = [[1, -1, 2, 3],
           [2, 5, 3, 3], 
           [6, 3, 5, 7]]
 min_row(arr)
+print("\nTask 13.2")
+def matr(arr):
+    l = len(arr)
+    maxm = 0
+    minm = 9999999
+    for i in range(l):
+        for j in range(l):
+            if arr[i][j]>maxm:
+                maxm = arr[i][j]
+            if arr[i][j]<minm:
+                minm = arr[i][j]
+    minm, maxm = maxm, minm
+    print(arr)
+arr = [[ -5, 2, 7, 4, 10 ],
+        [ 5, 15, 7, 8, 6 ],
+        [ 16, 2, 11, 3, 4 ],
+        [ 8, 99, 70, 10, 8 ],
+        [ 7, 66, 7, 1, 17 ]]
+print("Original: ", arr)
+matr(arr)
 
 #Task_15
 print("\nTask 15.1")
